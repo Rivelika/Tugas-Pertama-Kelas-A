@@ -1,0 +1,217 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #152C5B;
+}
+
+li {
+    margin-right: 15px;
+}
+
+.header {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #E5E5E5;
+}
+
+.header h1 {
+    color: #152C5B;
+}
+
+.stay {
+    color: #3252DF;
+}
+
+.firstlist {
+    color: #3252DF;
+}
+
+main .show__me {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.opword {
+    position: relative;
+    margin-right: 300px;
+}
+
+.opword h2 {
+    font-size: 42px;
+    color: #152C5B;
+}
+
+.opword p {
+    color: #B0B0B0;
+}
+
+.opword button {
+    background-color: #3252DF;
+    color: white;
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+.travel {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    left: 0;
+}
+
+.travel div {
+    margin-right: 30px;
+}
+
+.travel span {
+    color: #152C5B;
+    font-weight: bold;
+}
+.banner img {
+    border-radius: 100px 15px 15px 15px;
+}
+.ok h2 {
+
+position: absolute;
+width: 144px;
+height: 36px;
+left: 152px;
+top: 676px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+
+
+color: #152C5B;
+}
+
+.content{
+    background-image: url(beach.jpg);
+    position: absolute;
+    width: 360px;
+    height: 460px;
+    left: 149px;
+    top: 732px;
+    
+    background: linear-gradient(180deg, rgba(44, 155, 217, 0) 49.33%, rgba(196, 196, 196, 0.5) 100%);
+    border-radius: 15px;
+}
+
+.content p{
+    position: absolute;
+    width: 180.5px;
+    height: 22px;
+    left: 172.93px;
+    top: 1120px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #152C5B;
+    
+}
+
+.most_picked h3{
+   
+    position: absolute;
+width: 144px;
+height: 36px;
+left: 152px;
+top: 676px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+
+color: #152C5B;
+
+}
+
+hr{
+    border: 1px solid #B0B0B0;
+}
+.atas{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 110px;
+}
+
+.tebal{
+    margin-right: 70px;
+}
+
+.tebal h3{
+    font-size: 24px;
+    height:30px
+}
+
+.tebal h3 span{
+    color: #3252DF;
+}
+
+.tebal p{
+    color: #B0B0B0;
+    font-size: 18px;
+}
+
+.fornew {
+    margin-right: 70px;
+}
+
+.fornew p{
+    color: #B0B0B0;
+    font-size: 16px;
+}
+
+.explore{
+    margin-right: 50px;
+}
+
+.explore p{
+    color: #B0B0B0;
+    font-size: 16px;
+}
+
+.getouch p{
+    color: #B0B0B0;
+    font-size: 16px;
+}
+
+.copyright h4{
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 500px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #B0B0B0;
+}
